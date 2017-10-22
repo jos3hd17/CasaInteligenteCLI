@@ -1,6 +1,13 @@
-<ion-content>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content class="page"> 
+  <div class="container-principal">
+    <img src='https://image.flaticon.com/icons/svg/553/553421.svg' class="image-logo"/>
+      <div class="login-text">
+        <h3>Ingresa tu codigo de 4 digitos para continuar</h3>
+         <ion-item>
+          <ion-label floating>Codigo</ion-label>
+          <ion-input type="number"></ion-input>
+        </ion-item>
+        <button ion-button full outline (click)='toTab()'>Continuar</button>
+      </div>
+    </div>
 </ion-content>

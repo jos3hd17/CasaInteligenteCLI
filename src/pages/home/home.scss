@@ -1,3 +1,23 @@
 page-home {
-
+    .page{
+        background-color: blue;
+        .container-principal{
+                margin:5%;
+                padding: 5%;
+                border-radius:10%;
+                width:  90%;
+                height: 95%;
+                background-color: #0DE2F1;
+                .image-logo{
+                    height: 50%;
+                    width:50%;
+                    margin-left:25%;
+                }
+                .login-text{
+                    background-color: white;
+                    border-radius: 10%;
+                    padding:5%;
+                }
+        }
+    }
 }
