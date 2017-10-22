@@ -7,12 +7,14 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import {PrincipalMenuPage} from '../pages/principal-menu/principal-menu'
+import { ParallaxDirective } from '../directives/parallax/parallax';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    PrincipalMenuPage
+    PrincipalMenuPage,
+    ParallaxDirective
   ],
   imports: [
     BrowserModule,
