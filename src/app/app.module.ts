@@ -8,13 +8,15 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import {PrincipalMenuPage} from '../pages/principal-menu/principal-menu'
 import { ParallaxDirective } from '../directives/parallax/parallax';
+import {DuchaControlPage} from '../pages/ducha-control/ducha-control'
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     PrincipalMenuPage,
-    ParallaxDirective
+    ParallaxDirective,
+    DuchaControlPage
   ],
   imports: [
     BrowserModule,
@@ -24,7 +26,8 @@ import { ParallaxDirective } from '../directives/parallax/parallax';
   entryComponents: [
     MyApp,
     HomePage,
-    PrincipalMenuPage
+    PrincipalMenuPage,
+    DuchaControlPage
   ],
   providers: [
     StatusBar,

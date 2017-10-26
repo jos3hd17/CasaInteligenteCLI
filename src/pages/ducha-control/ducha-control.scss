@@ -1,0 +1,50 @@
+page-ducha-control {
+    .fondo-ducha{
+        background-color: #67B8F6;
+        .circulo-start{
+            background-color: #41F27F;
+            border-radius: 50%;
+            margin-top: 15%;
+            margin-left: auto;
+            margin-right: auto;
+            height: 200px;
+            width: 200px;
+            padding:15.5%;
+            color :white;
+        }
+        .crono-container{
+            background-color: #EBFB54;
+            border-radius: 5%;
+            margin-top: 10%;
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+            height: 35px;
+            padding: 8px;
+            
+        }
+        .agua-container{
+            background-color: #EBFB54;
+            border-radius: 5%;
+            margin-top: 1%;
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+            height: 35px;
+            padding: 8px;
+            
+        }
+        .circulo-fin{
+            background-color:#F1595B;
+            border-radius: 50%;
+            margin-top: 5%;
+            margin-left: auto;
+            margin-right: auto;
+            height: 100px;
+            width: 100px;
+            padding: 5%;
+            color: white;
+        }
+    }
+
+}

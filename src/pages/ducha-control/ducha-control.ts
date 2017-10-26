@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import {DuchaControlPage} from '../ducha-control/ducha-control';
 
 /**
- * Generated class for the MenuPage page.
+ * Generated class for the DuchaControlPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,21 +10,16 @@ import {DuchaControlPage} from '../ducha-control/ducha-control';
 
 @IonicPage()
 @Component({
-  selector: 'page-menu',
-  templateUrl: 'menu.html',
+  selector: 'page-ducha-control',
+  templateUrl: 'ducha-control.html',
 })
-export class MenuPage {
+export class DuchaControlPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad MenuPage');
-  }
-
-  irDucha(){
-    this.navCtrl.push(DuchaControlPage);
-
+    console.log('ionViewDidLoad DuchaControlPage');
   }
 
 }
