@@ -9,14 +9,15 @@ import { HomePage } from '../pages/home/home';
 import {PrincipalMenuPage} from '../pages/principal-menu/principal-menu'
 import { ParallaxDirective } from '../directives/parallax/parallax';
 import {DuchaControlPage} from '../pages/ducha-control/ducha-control'
-
+import {EcoModePage} from '../pages/eco-mode/eco-mode'
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     PrincipalMenuPage,
     ParallaxDirective,
-    DuchaControlPage
+    DuchaControlPage,
+    EcoModePage
   ],
   imports: [
     BrowserModule,
@@ -27,7 +28,8 @@ import {DuchaControlPage} from '../pages/ducha-control/ducha-control'
     MyApp,
     HomePage,
     PrincipalMenuPage,
-    DuchaControlPage
+    DuchaControlPage,
+    EcoModePage
   ],
   providers: [
     StatusBar,

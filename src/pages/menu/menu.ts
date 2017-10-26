@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {DuchaControlPage} from '../ducha-control/ducha-control';
+import{EcoModePage} from '../eco-mode/eco-mode';
 
 /**
  * Generated class for the MenuPage page.
@@ -28,4 +29,8 @@ export class MenuPage {
 
   }
 
+   irEco(){
+    this.navCtrl.push(EcoModePage);
+
+  }
 }
